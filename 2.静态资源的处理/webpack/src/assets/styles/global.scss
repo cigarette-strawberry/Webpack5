@@ -1,0 +1,19 @@
+// 自定义变量
+$color: #ff4200;
+$fs: 14px;
+$ls: 1.2;
+
+// 自定义mixin
+@mixin size($w, $h: $w) {
+  width: $w;
+  height: $h;
+}
+
+body {
+  font-size: $fs;
+  background-color: #eaeaea;
+  .avatar {
+    @include size(150px);
+    transform: translateX(50px);
+  }
+}

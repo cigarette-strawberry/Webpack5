@@ -1,0 +1,28 @@
+{
+  "name": "Webapck5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "tapable": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.16.0",
+    "@babel/parser": "^7.16.4",
+    "@babel/traverse": "^7.16.3",
+    "@babel/types": "^7.16.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
